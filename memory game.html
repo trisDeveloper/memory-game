@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>memory game</title>
+    <link rel="stylesheet" href="css/memorycss.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+    <div class="control-button">
+        <span>Start Game</span>
+    </div>
+
+    <div class="info-container">
+        <div class="name">
+            hello: <span></span>
+        </div>
+        <div class="tries">
+            wrong tries : <span>0</span>
+        </div>
+    </div>
+
+    <div class="memory-game-blocks">
+        <!-- 01 -->
+        <div class="game-block" data-pic="01">
+            <div class="face front"><i class="fas fa-question"></i></div>
+            <div class="face back">
+                <img src="images/01.png">
+            </div>
+        </div>
+
+        <div class="game-block" data-pic="01">
+            <div class="face front"><i class="fas fa-question"></i></div>
+            <div class="face back">
+                <img src="images/01.png">
+            </div>
+        </div>
+        <!-- 02 -->
+        <div class="game-block" data-pic="02">
+            <div class="face front"><i class="fas fa-question"></i></div>
+            <div class="face back">
+                <img src="images/02.png">
+            </div>
+        </div>
+        
+        <div class="game-block" data-pic="02">
+            <div class="face front"><i class="fas fa-question"></i></div>
+            <div class="face back">
+                <img src="images/02.png">
+            </div>
+        </div>
+        <!-- 03 -->
+        <div class="game-block" data-pic="03">
+            <div class="face front"><i class="fas fa-question"></i></div>
+            <div class="face back">
+                <img src="images/03.png">
+            </div>
+        </div>
+        
+        <div class="game-block" data-pic="03">
+            <div class="face front"><i class="fas fa-question"></i></div>
+            <div class="face back">
+                <img src="images/03.png">
+            </div>
+        </div>
+        <!-- 04 -->
+        <div class="game-block" data-pic="04">
+            <div class="face front"><i class="fas fa-question"></i></div>
+            <div class="face back">
+                <img src="images/04.jpg">
+            </div>
+        </div>
+        
+        <div class="game-block" data-pic="04">
+            <div class="face front"><i class="fas fa-question"></i></div>
+            <div class="face back">
+                <img src="images/04.jpg">
+            </div>
+        </div>
+        <!-- 05 -->
+        <div class="game-block" data-pic="05">
+            <div class="face front"><i class="fas fa-question"></i></div>
+            <div class="face back">
+                <img src="images/05.jpg">
+            </div>
+        </div>
+        
+        <div class="game-block" data-pic="05">
+            <div class="face front"><i class="fas fa-question"></i></div>
+            <div class="face back">
+                <img src="images/05.jpg">
+            </div>
+        </div>
+        <!-- 06 -->
+        <div class="game-block" data-pic="06">
+            <div class="face front"><i class="fas fa-question"></i></div>
+            <div class="face back">
+                <img src="images/06.jfif">
+            </div>
+        </div>
+        
+        <div class="game-block" data-pic="06">
+            <div class="face front"><i class="fas fa-question"></i></div>
+            <div class="face back">
+                <img src="images/06.jfif">
+            </div>
+        </div>
+    </div>
+    <audio src="success-sound-effect.mp3" id="success" preload="auto"></audio>
+    <audio src="fail-sound-effect.mp3" id="fail" preload="auto"></audio>
+
+
+    <script src="js/memoryjs.js"></script>
+</body>
+</html>
