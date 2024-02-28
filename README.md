@@ -5,6 +5,7 @@ This is a simple Memory Game project that I developed as part of my coding journ
 # Live Game
 https://trisDeveloper.github.io/memory-game/
 
+![Screenshot from 2024-02-28 09-55-43](https://github.com/trisDeveloper/memory-game/assets/97057835/79c90062-f369-4ee8-b803-7d551e3b4351)
 ## Features
 
 - Grid of cards with hidden symbols.
@@ -24,7 +25,6 @@ https://trisDeveloper.github.io/memory-game/
 - HTML
 - CSS
 - JavaScript
-
 
 ## Credits
 
